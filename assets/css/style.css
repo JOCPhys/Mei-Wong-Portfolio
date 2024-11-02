@@ -11,5 +11,36 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #a4c2d1; egg blue;
+    background-color: #a4c2d1; /* egg blue */
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63; /* dark blue */
+}
+
+/* About section */
+#about {
+    background-color: white;
+}
+
+/* portfolio */
+#portfolio {
+    background-color: #dbdcde; /* light grey */
+}
+
+/* Contact section */
+#contact {
+    background-color: white;
+}
+
+/* hero image */
+#hero {
+    background-color: lightgray;
+    background-image: url(../images/hero-image\ background.webp);
+    background-position: 50% 70%;
+    background-size: cover;
+    min-height: 500px;
+  padding: 5% 7%;
 }
